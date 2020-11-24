@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.degrees{font-size: 2rem;}
+.detail-days p{margin-bottom: 0.2rem;}
+.card:first-child{margin-top: 2rem;}
+.card.card-top{background-color:white;color: black;}
+.current-degrees{    display: inline-flex;
+  align-items: center;}
+.current-degrees span{color: black;}
+form.city-selector{display:flex;justify-content: flex-end;}
+.card h2{margin-bottom: 2rem;}
+.card, .btn{margin-bottom: 1rem;}
+.btn.btn-days{
+  padding-top: 1rem;cursor: pointer;text-align: center;color: #666666;font-size: 0.9rem;width: 100%;
+} 
+.btn.btn-active{border: 1px solid black;box-shadow: none;}
+.btn.btn-days:focus{box-shadow: none;}
+.btn.btn-active:focus{box-shadow: none;}
